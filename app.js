@@ -472,6 +472,7 @@ async function renderQuestion(folderName) {
                 label: `Resposta ${answerNumber} — ${answerFile}`,
                 rawContent: markdown,
                 renderedContent: renderMarkdown(markdown, baseUrl),
+                extraClass: "answer-block",
             }),
         );
     }

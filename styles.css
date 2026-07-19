@@ -11,6 +11,10 @@
     --code-background: #17191c;
     --code-text: #f2f4f8;
     --shadow: 0 8px 24px rgba(20, 26, 36, 0.08);
+    --answer-surface: #fff4f3;
+    --answer-header: #ffe4e1;
+    --answer-border: #d96a61;
+    --answer-text: #7d1f1a;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -26,6 +30,10 @@
         --code-background: #0c0e12;
         --code-text: #edf0f5;
         --shadow: 0 8px 24px rgba(0, 0, 0, 0.22);
+        --answer-surface: #291817;
+        --answer-header: #3a201e;
+        --answer-border: #c96b63;
+        --answer-text: #ffb4ad;
     }
 }
 
@@ -176,6 +184,39 @@ a {
 
 .block-content {
     padding: 20px;
+}
+
+
+.answer-block {
+    border-color: var(--answer-border);
+    background: var(--answer-surface);
+}
+
+.answer-block .block-header {
+    border-bottom-color: var(--answer-border);
+    background: var(--answer-header);
+}
+
+.answer-block .block-label {
+    color: var(--answer-text);
+}
+
+.answer-block .block-content {
+    background: var(--answer-surface);
+}
+
+.answer-block .markdown-body {
+    color: var(--answer-text);
+}
+
+.answer-block .markdown-body a {
+    color: var(--answer-text);
+    text-decoration-color: currentColor;
+}
+
+.answer-block .markdown-body blockquote {
+    border-left-color: var(--answer-border);
+    color: var(--answer-text);
 }
 
 .metadata-block .block-content {
