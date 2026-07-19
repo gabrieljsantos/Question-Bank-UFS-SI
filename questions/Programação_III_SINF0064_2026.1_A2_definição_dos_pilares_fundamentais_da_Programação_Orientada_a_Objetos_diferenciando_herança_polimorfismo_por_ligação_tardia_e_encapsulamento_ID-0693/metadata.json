@@ -1,0 +1,15 @@
+{
+    "id": "0693",
+    "contributor": "3N1AC",
+    "tag": "definição dos pilares fundamentais da Programação Orientada a Objetos, diferenciando herança, polimorfismo por ligação tardia e encapsulamento",
+    "discipline": "Programação III",
+    "discipline_code": "SINF0064",
+    "professor": "Betelgeuse",
+    "term": "2026.1",
+    "assessment": 2,
+    "contents": [],
+    "files": {
+        "question": "question.md",
+        "answers": []
+    }
+}

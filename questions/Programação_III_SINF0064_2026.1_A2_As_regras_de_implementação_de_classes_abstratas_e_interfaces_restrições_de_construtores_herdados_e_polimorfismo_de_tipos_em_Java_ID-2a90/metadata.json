@@ -1,0 +1,15 @@
+{
+    "id": "2a90",
+    "contributor": "3N1AC",
+    "tag": "As regras de implementação de classes abstratas e interfaces, restrições de construtores herdados e polimorfismo de tipos em Java",
+    "discipline": "Programação III",
+    "discipline_code": "SINF0064",
+    "professor": "Betelgeuse",
+    "term": "2026.1",
+    "assessment": 2,
+    "contents": [],
+    "files": {
+        "question": "question.md",
+        "answers": []
+    }
+}

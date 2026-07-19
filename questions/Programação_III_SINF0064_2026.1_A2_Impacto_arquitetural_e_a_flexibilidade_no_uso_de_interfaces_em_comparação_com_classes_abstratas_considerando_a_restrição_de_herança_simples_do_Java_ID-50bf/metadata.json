@@ -1,0 +1,15 @@
+{
+    "id": "50bf",
+    "contributor": "3N1AC",
+    "tag": "Impacto arquitetural e a flexibilidade no uso de interfaces em comparação com classes abstratas, considerando a restrição de herança simples do Java",
+    "discipline": "Programação III",
+    "discipline_code": "SINF0064",
+    "professor": "Betelgeuse",
+    "term": "2026.1",
+    "assessment": 2,
+    "contents": [],
+    "files": {
+        "question": "question.md",
+        "answers": []
+    }
+}

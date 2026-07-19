@@ -1,0 +1,15 @@
+{
+    "id": "eb56",
+    "contributor": "3N1AC",
+    "tag": "O rastreamento do fluxo de execução de um método recursivo condicional e a importância do caso base para evitar o estouro de pilha.",
+    "discipline": "Programação III",
+    "discipline_code": "SINF0064",
+    "professor": "Betelgeuse",
+    "term": "2026.1",
+    "assessment": 2,
+    "contents": [],
+    "files": {
+        "question": "question.md",
+        "answers": []
+    }
+}
