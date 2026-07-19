@@ -1,0 +1,17 @@
+{
+    "contributor": "3N1AC",
+    "id": "8f30",
+    "tag": "Implementação de Hierarquia de Classes e Interfaces",
+    "discipline": "Programação III",
+    "discipline_code": "SINF0064",
+    "professor": "Betelgeuse",
+    "term": "2026.1",
+    "assessment": 2,
+    "contents": [],
+    "files": {
+        "question": "question.md",
+        "answers": [
+            "answer_01.md"
+        ]
+    }
+}

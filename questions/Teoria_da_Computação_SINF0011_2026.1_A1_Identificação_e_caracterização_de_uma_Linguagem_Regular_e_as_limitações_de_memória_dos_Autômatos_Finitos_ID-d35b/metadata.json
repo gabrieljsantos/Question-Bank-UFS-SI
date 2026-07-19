@@ -1,0 +1,15 @@
+{
+    "id": "d35b",
+    "contributor": "3N1AC",
+    "tag": "Identificação e caracterização de uma Linguagem Regular e as limitações de memória dos Autômatos Finitos",
+    "discipline": "Teoria da Computação",
+    "discipline_code": "SINF0011",
+    "professor": "Saturno",
+    "term": "2026.1",
+    "assessment": 1,
+    "contents": [],
+    "files": {
+        "question": "question.md",
+        "answers": []
+    }
+}

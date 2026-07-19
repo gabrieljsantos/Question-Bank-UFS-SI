@@ -1,0 +1,15 @@
+{
+    "id": "2b21",
+    "contributor": "3N1AC",
+    "tag": "Limitação das interfaces puras no Java quanto à impossibilidade de declarar atributos de instância modificáveis",
+    "discipline": "Programação III",
+    "discipline_code": "SINF0064",
+    "professor": "Betelgeuse",
+    "term": "2026.1",
+    "assessment": 2,
+    "contents": [],
+    "files": {
+        "question": "question.md",
+        "answers": []
+    }
+}
