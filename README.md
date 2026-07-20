@@ -14,7 +14,7 @@ O projeto possui três partes principais:
 
 ---
 
-> ##### Acesso ao Banco de Questões
+> #### Acesso ao Banco de Questões
 >
 > O banco de questões pode ser acessado diretamente pelo GitHub Pages:
 >
