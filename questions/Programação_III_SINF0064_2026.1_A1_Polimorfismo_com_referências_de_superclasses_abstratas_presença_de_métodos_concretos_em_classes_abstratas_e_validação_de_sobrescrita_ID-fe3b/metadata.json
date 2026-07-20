@@ -1,0 +1,15 @@
+{
+    "id": "fe3b",
+    "contributor": "3N1AC",
+    "tag": "Polimorfismo com referências de superclasses abstratas, presença de métodos concretos em classes abstratas e validação de sobrescrita",
+    "discipline": "Programação III",
+    "discipline_code": "SINF0064",
+    "professor": "Betelgeuse",
+    "term": "2026.1",
+    "assessment": 1,
+    "contents": [],
+    "files": {
+        "question": "question.md",
+        "answers": []
+    }
+}

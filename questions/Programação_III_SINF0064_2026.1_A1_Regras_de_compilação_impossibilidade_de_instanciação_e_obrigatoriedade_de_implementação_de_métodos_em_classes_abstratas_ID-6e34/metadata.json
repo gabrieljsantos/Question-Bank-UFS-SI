@@ -1,0 +1,15 @@
+{
+    "id": "6e34",
+    "contributor": "3N1AC",
+    "tag": "Regras de compilação, impossibilidade de instanciação e obrigatoriedade de implementação de métodos em classes abstratas",
+    "discipline": "Programação III",
+    "discipline_code": "SINF0064",
+    "professor": "Betelgeuse",
+    "term": "2026.1",
+    "assessment": 1,
+    "contents": [],
+    "files": {
+        "question": "question.md",
+        "answers": []
+    }
+}

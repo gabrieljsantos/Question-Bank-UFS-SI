@@ -1,0 +1,15 @@
+{
+    "id": "7ac0",
+    "contributor": "3N1AC",
+    "tag": "Conceitos teóricos de arquitetura de memória, escopo de classe static e o uso das palavras-chave this e super",
+    "discipline": "Programação III",
+    "discipline_code": "SINF0064",
+    "professor": "Betelgeuse",
+    "term": "2026.1",
+    "assessment": 1,
+    "contents": [],
+    "files": {
+        "question": "question.md",
+        "answers": []
+    }
+}

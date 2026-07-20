@@ -1,0 +1,15 @@
+{
+    "id": "575d",
+    "contributor": "3N1AC",
+    "tag": "Regras de acesso e compartilhamento de atributos e métodos estáticos em relação aos membros de instância",
+    "discipline": "Programação III",
+    "discipline_code": "SINF0064",
+    "professor": "Betelgeuse",
+    "term": "2026.1",
+    "assessment": 1,
+    "contents": [],
+    "files": {
+        "question": "question.md",
+        "answers": []
+    }
+}

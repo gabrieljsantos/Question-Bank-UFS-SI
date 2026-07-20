@@ -1,0 +1,15 @@
+{
+    "id": "a31d",
+    "contributor": "3N1AC",
+    "tag": "Conceito de polimorfismo de inclusão e de qual versão de um método sobrescrito é executada em tempo de execução",
+    "discipline": "Programação III",
+    "discipline_code": "SINF0064",
+    "professor": "Betelgeuse",
+    "term": "2026.1",
+    "assessment": 1,
+    "contents": [],
+    "files": {
+        "question": "question.md",
+        "answers": []
+    }
+}

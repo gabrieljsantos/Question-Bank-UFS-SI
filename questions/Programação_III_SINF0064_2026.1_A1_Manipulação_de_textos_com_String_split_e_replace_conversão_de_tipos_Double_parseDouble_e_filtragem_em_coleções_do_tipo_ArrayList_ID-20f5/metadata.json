@@ -1,0 +1,15 @@
+{
+    "id": "20f5",
+    "contributor": "3N1AC",
+    "tag": "Manipulação de textos com String_split e replace, conversão de tipos Double_parseDouble e filtragem em coleções do tipo ArrayList",
+    "discipline": "Programação III",
+    "discipline_code": "SINF0064",
+    "professor": "Betelgeuse",
+    "term": "2026.1",
+    "assessment": 1,
+    "contents": [],
+    "files": {
+        "question": "question.md",
+        "answers": []
+    }
+}

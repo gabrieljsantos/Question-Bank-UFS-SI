@@ -14,7 +14,7 @@ O projeto possui três partes principais:
 
 ---
 
-> #### Acesso ao Banco de Questões
+> ### Acesso ao Banco de Questões
 >
 > O banco de questões pode ser acessado diretamente pelo GitHub Pages:
 >
@@ -321,6 +321,135 @@ Digite aqui o conteúdo textual da questão.
 A transcrição facilita buscas, seleção de texto, acessibilidade e futuras correções.
 
 Antes de adicionar uma fotografia, remova ou recorte informações pessoais, como nomes de alunos, matrículas, assinaturas, e-mails e outros dados que não sejam necessários para compreender a questão.
+
+---
+
+# Criando o `question.md` a partir de fotos com o Gemini
+
+O procedimento abaixo apresenta um exemplo de uso do Gemini para transformar fotografias de uma prova em arquivos Markdown. A ferramenta de IA auxilia na transcrição e na organização, mas o conteúdo gerado deve ser comparado com as imagens originais antes de ser salvo.
+
+## 1. Prepare as fotografias
+
+Antes de enviá-las ao Gemini:
+
+1. fotografe ou digitalize todas as páginas necessárias da prova;
+2. organize as imagens na ordem correta;
+3. confirme que o texto está legível;
+4. recorte ou oculte nomes, matrículas, assinaturas e outros dados pessoais;
+5. mantenha separadas as imagens, gráficos ou diagramas que serão inseridos manualmente no `question.md`.
+
+É possível enviar todas as páginas da prova de uma vez. Depois disso, trabalhe uma questão por vez, informando claramente o número ou o trecho que deve ser processado.
+
+## 2. Gere primeiro a tag da questão
+
+Antes de criar a estrutura no gerenciador, peça ao Gemini uma identificação curta para a questão. Essa saída será usada no campo **Tag da questão**.
+
+Prompt de exemplo:
+
+```text
+Analise a questão [NÚMERO DA QUESTÃO] presente nas imagens enviadas.
+
+Resuma, em uma única linha e com poucas palavras, o assunto principal e o que a questão solicita.
+
+A resposta será usada como tag de identificação da questão.
+
+Responda somente com a tag, sem explicações, sem introdução, sem aspas e sem pontuação final.
+```
+
+Exemplos de saída:
+
+```text
+balanceamento de árvore AVL
+```
+
+```text
+cálculo de campo elétrico
+```
+
+```text
+interseção de autômatos finitos
+```
+
+Copie a frase gerada e cole no campo **Tag da questão** do gerenciador. Depois, preencha os demais metadados e crie a estrutura da questão.
+
+## 3. Peça a transcrição em Markdown
+
+Após criar a pasta da questão, solicite ao Gemini somente o conteúdo que será colocado no arquivo `question.md`.
+
+Prompt de exemplo:
+
+```text
+Com base nas imagens da prova enviadas anteriormente, transcreva somente a questão [NÚMERO DA QUESTÃO] para Markdown.
+
+Siga estas regras:
+
+- preserve o texto e o sentido original do enunciado;
+- preserve a ordem dos parágrafos, itens, subitens e alternativas;
+- represente corretamente fórmulas, símbolos, tabelas e trechos de código;
+- corrija somente erros evidentes causados pela leitura da imagem, sem reescrever a questão;
+- não resolva a questão;
+- não acrescente explicações, observações ou comentários;
+- não escreva frases como “Aqui está o Markdown”;
+- não coloque a resposta dentro de um bloco cercado por ```markdown;
+- entregue somente o Markdown final, pronto para ser copiado e colado no arquivo question.md;
+- quando algum trecho não estiver legível, marque-o como [trecho ilegível] em vez de inventar o conteúdo.
+```
+
+O objetivo é fazer com que a resposta do Gemini comece diretamente pelo conteúdo do enunciado. Assim, basta usar o botão de copiar da ferramenta e colar o resultado no `question.md`.
+
+## 4. Trate imagens, gráficos e diagramas separadamente
+
+Quando a questão contiver uma figura que será salva manualmente, adicione ao prompt anterior, quando necessário, o seguinte trecho opcional:
+
+```text
+Quando houver uma imagem, gráfico ou diagrama, indique sua posição no enunciado usando uma referência Markdown no formato:
+
+![Descrição breve da imagem](nome_da_imagem.png)
+
+Não tente recriar visualmente a imagem. Uma descrição objetiva pode ser adicionada apenas quando ajudar a compreender o conteúdo.
+```
+
+Esse trecho pode ser removido do prompt quando não for necessário que o Gemini descreva ou marque a imagem.
+
+Depois da transcrição:
+
+1. copie ou recorte a figura original da fotografia;
+2. cole a imagem no `question.md` pelo recurso do VS Code ou pela extensão configurada;
+3. confirme que o arquivo da imagem foi salvo dentro da pasta da questão;
+4. substitua o nome provisório pelo caminho relativo correto;
+5. mantenha uma descrição curta no texto alternativo da imagem.
+
+Exemplo:
+
+```markdown
+Considere a árvore apresentada abaixo:
+
+![Árvore AVL usada no enunciado](arvore_avl.png)
+
+Determine quais rotações devem ser realizadas.
+```
+
+A descrição textual pode complementar a figura, mas não deve substituir informações visuais indispensáveis sem uma revisão manual.
+
+## 5. Copie, cole e revise
+
+Para cada questão da prova:
+
+1. peça a tag curta;
+2. copie a tag para o gerenciador;
+3. crie a estrutura da questão;
+4. peça a transcrição em Markdown;
+5. copie somente a resposta gerada;
+6. cole o conteúdo no `question.md` correspondente;
+7. insira manualmente as imagens necessárias;
+8. abra a pré-visualização Markdown no VS Code;
+9. compare o resultado com a fotografia original;
+10. corrija erros de transcrição, fórmulas, alternativas e caminhos de imagens.
+
+Repita o processo até que todas as questões tenham sido cadastradas.
+
+> [!IMPORTANT]
+> A IA deve ser usada como ferramenta de transcrição e formatação. A versão publicada deve ser revisada por uma pessoa, principalmente quando houver fórmulas, símbolos, código, tabelas ou imagens com baixa qualidade.
 
 ---
 
