@@ -1,5 +1,7 @@
 # Question Bank UFS SI
 
+**Acesso à página web:** https://gabrieljsantos.github.io/Question-Bank-UFS-SI/
+
 Banco colaborativo de questões acadêmicas organizado por disciplina, código, professor, período, avaliação, tema e identificador único.
 
 O projeto possui três partes principais:
@@ -427,6 +429,8 @@ python3 rebuild_the_indexer.py
 ---
 
 # Visualizando o banco no navegador
+
+**Versão online disponível em:** https://gabrieljsantos.github.io/Question-Bank-UFS-SI/
 
 A página não deve ser aberta apenas com um clique duplo no `index.html`, pois o navegador precisa carregar os arquivos por HTTP.
 
