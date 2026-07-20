@@ -1,6 +1,5 @@
 # Question Bank UFS SI
 
-**Acesso à página web:** https://gabrieljsantos.github.io/Question-Bank-UFS-SI/
 
 Banco colaborativo de questões acadêmicas organizado por disciplina, código, professor, período, avaliação, tema e identificador único.
 
@@ -12,6 +11,15 @@ O projeto possui três partes principais:
 
 > [!IMPORTANT]
 > O gerenciador **não escreve o enunciado nem produz as respostas**. Ao criar uma questão, ele gera arquivos `.md` vazios. O conteúdo deve ser colocado manualmente depois.
+
+---
+
+> ##### Acesso ao Banco de Questões
+>
+> O banco de questões pode ser acessado diretamente pelo GitHub Pages:
+>
+> [**Acessar o Question Bank UFS SI**](https://gabrieljsantos.github.io/Question-Bank-UFS-SI/)
+
 
 ---
 
